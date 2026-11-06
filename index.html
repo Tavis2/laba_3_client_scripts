@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Доска публикаций</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>Доска публикаций</h1>
+    <button id="load-button">Загрузить публикации</button>
+    <p id="load-message" role="status"></p>
+    <div id="posts"></div>
+
+    <h2>Новая публикация</h2>
+    <form id="post-form" novalidate>
+      <label for="title">Заголовок</label>
+      <input id="title" type="text" required>
+      <label for="body">Текст</label>
+      <textarea id="body" rows="5" required></textarea>
+      <button id="create-button" type="submit">Создать публикацию</button>
+    </form>
+    <p id="create-message" role="status"></p>
+    <p class="note">JSONPlaceholder имитирует создание записей. На сервере они не сохраняются.</p>
+  </main>
+</body>
+</html>

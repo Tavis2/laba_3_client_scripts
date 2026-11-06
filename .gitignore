@@ -1,0 +1,18 @@
+# Локальные настройки редакторов и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Временные файлы и локальные результаты проверок
+*.log
+*.tmp
+*.zip
+node_modules/
+test-results/
+playwright-report/
+
+# Локальные переменные окружения
+.env
+.env.*
